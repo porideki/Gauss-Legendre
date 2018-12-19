@@ -1,4 +1,4 @@
-# Gauss-Legendre–@‚ğ—p‚¢‚½Ï•ª
+ï»¿# Gauss-Legendreæ³•ã‚’ç”¨ã„ãŸç©åˆ†
 python code
 
 gausslegendre()
