@@ -19,3 +19,6 @@ def g(bottom, top, t):
 def f(x):
     #ここを変更
     return (math.e ** x) * (math.sin(x) ** 2)
+
+if __name__ == "__main__":
+    print("I =", gauslegendre(0, 1, 3))
