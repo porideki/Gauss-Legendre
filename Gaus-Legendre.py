@@ -6,8 +6,10 @@ xw = [{"x":[0], "w":[2]},
 
 def gauslegendre(bottom, top, n):
     area = 0
-    for i in range(n):
+    for i in range(0, n):
         area += xw[n - 1]["w"][i] * g(bottom, top, xw[n - 1]["x"][i])
+
+    area *= 0.5 * (top - bottom)
     
     return area
 
@@ -16,7 +18,4 @@ def g(bottom, top, t):
 
 def f(x):
     #ここを変更
-    return (math.e ** x) * (math.sin(x)** 2)
-    
-if __name__ == "__main__":
-    print(gauslegendre(0, 1, 3))
+    return (math.e ** x) * (math.sin(x) ** 2)
